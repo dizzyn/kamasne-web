@@ -1,0 +1,4 @@
+<html>
+<head>
+    <%= controller.include("local", "_head-fragment") %>
+</head>

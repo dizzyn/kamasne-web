@@ -1,0 +1,30 @@
+  <body>
+        <div class='page'>
+            <div class='page-inner'>
+
+                <div class='sidebar'>
+                    <div class='sidebar-inner'>
+
+                        <div class='logo'>
+                            <a href="index.html"><img src='img/logo-small.png' alt=''/></a> 
+                        </div>
+
+                        <ul class="menu">
+                            <li><a href="kapela.html">Kamašne - O kapele</a></li>
+                            <li><a href="hudba.html">Hudba</a></li>
+                            <li><a href="koncerty.html">Koncerty</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                            <li class="icons">
+                                <div class="icon">
+                                    <a href="https://www.facebook.com/KamaSne">Facebook</a>
+                                </div>
+                                <div class="icon">
+                                    <a href="http://bandzone.cz/kamasne">Bandzone</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="btn-open">|||</div>
+
+                    </div><!-- sidebar-inner -->
+                </div><!-- sidebar -->

@@ -1,0 +1,6 @@
+<%= controller.include("global", "_head") %>
+<%= controller.include("local", "_header") %>
+
+<img class="big-logo" src="img/logo.png" alt=""/>
+
+<%= controller.include("local", "_footer") %>

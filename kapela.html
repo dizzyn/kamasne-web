@@ -1,0 +1,142 @@
+<html>
+<head>
+            <title>Kamašne</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
+
+        <meta name = 'viewport' content = 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
+
+        <link rel='stylesheet' type='text/css' href='css/style.css'/>
+
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+        <script>
+            $(function() {
+
+                if ($(".big-logo").length) {
+                    $(".sidebar").addClass("closed");
+                }
+
+                $(".sidebar .btn-open, .big-logo").click(function() {
+                    $(".sidebar").removeClass("closed");
+                })
+
+                $(".big-logo").hover(function() {
+                    $(this).attr("src", function(index, attr) {
+                        return attr.replace(".png", "_invert.png");
+                    });
+                }, function() {
+                    $(this).attr("src", function(index, attr) {
+                        return attr.replace("_invert.png", ".png");
+                    });
+                });
+
+            })
+        </script>
+
+
+
+
+
+
+</head>
+  <body>
+        <div class='page'>
+            <div class='page-inner'>
+
+                <div class='sidebar'>
+                    <div class='sidebar-inner'>
+
+                        <div class='logo'>
+                            <a href="index.html"><img src='img/logo-small.png' alt=''/></a> 
+                        </div>
+
+                        <ul class="menu">
+                            <li><a href="kapela.html">Kamašne - O kapele</a></li>
+                            <li><a href="hudba.html">Hudba</a></li>
+                            <li><a href="koncerty.html">Koncerty</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                            <li class="icons">
+                                <div class="icon">
+                                    <a href="https://www.facebook.com/KamaSne">Facebook</a>
+                                </div>
+                                <div class="icon">
+                                    <a href="http://bandzone.cz/kamasne">Bandzone</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="btn-open">|||</div>
+
+                    </div><!-- sidebar-inner -->
+                </div><!-- sidebar -->
+
+
+ <div class='content'>
+                    <div class='content-inner'>
+
+                        <ul class='thumbnails'>
+                            <li class="wide"><a href='photos/kamasne.jpg'><img src='photos/kamasne-small.jpg' alt=''/><div class='caption'>KamaŠne</div></a></li>
+                        </ul>
+
+
+                        <div class="span100">
+                            <div class="well">
+                                <p>
+                                    Dlouholetá přátelství jednotlivých členů kapely přerostla po čase v souznění 
+                                    v hudbě. Myšlenka založit společně kapelu vznikla v roce 2012 v hospodě 
+                                    u Havrana… Terka: „Míro, hele, nezaložíme si kapelu?“… Míra: „Tak jo…“ 
+                                </p>
+
+                                <p>
+                                    Terka skvěle zpívala a divadelně improvizovala, Míra od šestnácti nedal kytaru 
+                                    z ruky. Za tu dobu hrál v mnoha kapelách a doprovázel improvizátory při 
+                                    vystoupeních… 
+                                </p>
+
+                                <p>
+                                    Při hledání baskytaristy byl Mates jasnou volbou… S Mírou spolu hráli už 
+                                    v kapele Space Formers… 
+                                </p>
+
+                                <p>
+                                    Postupně vznikaly písně, k nimž Terka psala texty, Míra hudbu a společně 
+                                    s Matesem hledali jejich výraz a směr. Do této sestavy přibyl ještě David, aby její zvuk doplnil o perkuse.
+                                </p>
+
+                                <p>
+                                    Souznění se proměnilo ve tvůrčí chvění… Čtyři lidé, čtyři názory, jedna hudba, 
+                                    která je nerozlučně spojuje. Upřímnou poezií textů provází energická kytara. 
+                                    Hranice cesty sebejistě nastavuje basová linka a hravé rytmy perkusí dotváří
+                                    celkový pocit nikdy nekončícího hledání… Prostě Kamašne…
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <ul class='thumbnails'>
+                            <li><a href='photos/terka.jpg'><img src='photos/terka-small.jpg' alt=''/><div class='caption'>Terka Odúterka - zpěv</div></a></li
+                            ><li><a href='photos/mira.jpg'><img src='photos/mira-small.jpg' alt=''/><div class='caption'>Jaromír Jíra - kytara</div></a></li
+                            ><li><a href='photos/mates.jpg'><img src='photos/mates-small.jpg' alt=''/><div class='caption'>Martin Prokeš - baskytara</div></a></li
+                            ><li><a href='photos/david.jpg'><img src='photos/david-small.jpg' alt=''/><div class='caption'>David Deutscha - perkuse</div></a></li>
+                        </ul>
+                        <script>
+                            $(function() {
+                                $('.thumbnails a').magnificPopup({
+                                    type: 'image'
+                                });
+                            })
+                        </script>
+                        <p style="text-align: right">foto © Luboš Novotný</p>
+
+                    </div><!-- content-inner -->
+                </div><!-- content -->
+
+
+
+
+
+            </div><!-- page inner -->
+        </div><!-- page -->
+    </body>
+</html>

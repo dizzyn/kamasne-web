@@ -1,0 +1,130 @@
+<%= controller.include("global", "_head") %>
+<%= controller.include("local", "_header") %>
+
+<div class='content'>
+                    <div class='content-inner'>
+
+                        <div class="well">
+                            <h2>Chystá se: Nové písničky</h2>
+                        </div>
+
+                        <div class="well">
+                            <h4>Máme pracovní prázdniny. <b>Nehrajeme</b>. Připravujeme nové písně. <b>Těšte se</b>, i my se těšíme.</h4>
+                        </div>
+
+                        <div class="well">
+                            <h2>Proběhlo</h2>
+                        </div>    
+
+                        <ul class="calendar">
+                            <li class="color1 span25">
+                                <div class="well">
+                                    <h4><a href="http://www.okolotrebone.cz/index.php">Soutěžní scéna Houpací kůň</a>, Třeboň, Masarykovo náměstí</h4>
+                                    <div class="date">28. 6. 2014, 13:30</div>
+                                    <div class="desc">Festival Okolo Třeboně</div>
+                                </div>
+                            </li>
+                            <li class="color2 span25">
+                                <div class="well">
+                                    <h4><a href="http://www.divadlonapradle.cz/nic.php?choose=programk2">Divadlo Na prádle</a>, Centrální park Pankrác, 140 00 Praha 4</h4>
+                                    <div class="date">24. 6. 2014</div>
+                                    <div class="desc">KIŠ x KIŠ + KamaŠne</div>
+                                </div>
+                            </li>
+                            <li class="color3 span25">
+                                <div class="well">
+                                    <h4><a href="https://www.facebook.com/zahradnidum?fref=ts">Zahradní dům Teplice</a></h4>
+                                    <div class="date">22. 6. 2014</div>
+                                    <div class="desc">Teplice</div>
+                                </div>
+                            </li>
+                            <li class="color2 span25">
+                                <div class="well">
+                                    <h4><a href="http://www.bajkazyl.cz/">Náplavka, Bajkazyl</a></h4>
+                                    <div class="date">21. 6. 2014, 17.00</div>
+                                    <div class="desc">V rámci Svátku hudby</div>
+                                </div>
+                            </li>
+                            <li class="color3 span25">
+                                <div class="well">
+                                    <h4><a href="http://www.greendoors.cz/cafe_na_pul_cesty/program">Café Na půl cesty</a>, Centrální park Pankrác, 140 00 Praha 4</h4>
+                                    <div class="date">31. 5. 2014</div>
+                                    <div class="desc">Benefice o.s. STROM</div>
+                                </div>
+                            </li>
+                            <li class="color3 span25">
+                                <div class="well">
+                                    <h4><a href="http://uzjstedoma.cz">Už jsme doma</a>, Uralská 6, Praha 6</h4>
+                                    <div class="date">25. 4. 2014</div>
+                                    <div class="desc">Společně s <a href="http://bandzone.cz/jirihvezdon">Jirkou Hvězdoňem</a></div>
+                                </div>
+                            </li>
+                            <li class="color1 span25">
+                                <div class="well">
+                                    <h4><a href="http://www.cafelajka.cz">Kafé Lajka</a>, U akademie 11, praha 7</h4>
+                                    <div class="date">21. 3. 2014</div>
+                                    <div class="desc">Společně s <a href="http://bandzone.cz/alexjerome">Alex&amp;Jerome</a></div>
+                                </div>
+                            </li>
+                            <li class="color2 span25">
+                                <div class="well">
+                                    <h4>Moskyto Club - Domažlice</h4>
+                                    <div class="date">14. 3. 2014</div>
+                                    <div class="desc"><a href="http://bandzone.cz/klub/moskyto">Stránky klubu</a></div>
+                                </div>
+                            </li>
+                            <li class="color1 span25">
+                                <div class="well">
+                                    <h4><a href="http://www.baryton-cafe.cz">Baryton</a>, Husinecká 29, Praha  3</h4>
+                                    <div class="date">15. 2. 2014</div>
+                                    <div class="desc">Společně s <a href="http://bandzone.cz/marekdusilblend">Marek Dusil Blend</a></div>
+                                </div>
+                            </li>
+                            <li class="color2 span25">
+                                <div class="well">
+                                    <h4>U Vystřelenýho Oka, U Božích Bojovníků 3, Praha 3</h4>
+                                    <div class="date">21. 11. 2013</div>
+                                    <div class="desc">Akustický řez - Tomáš Pastrňák + KamaŠne + Marek Dusil Blend</div>
+                                </div>
+                            </li>
+                            <li class="color1 span25">
+                                <div class="well">
+                                    <h4><a href="http://www.baryton-cafe.cz">Baryton</a>, Husinecká 29, Praha 3</h4>
+                                    <div class="date">15. 11. 2013</div>
+                                    <div class="desc">KamaŠne + Asi metrické duo Luboš a Ondrus + Čívus</div>
+                                </div>
+                            </li>
+                            <li class="color3 span25">
+                                <div class="well">
+                                    <h4><a href="http://uzjstedoma.cz">Už jsme doma</a>, Uralská 6, Praha 6</h4>
+                                    <div class="date">11. 10. 2013</div>
+                                    <div class="desc">KamaŠne + Jiří Hvězdoň</div>
+                                </div>
+                            </li>
+                            <li class="color2 span25">
+                                <div class="well">
+                                    <h4>První KIŠová výprava - Husitský kostel, Nám. Barikád, Pha. 3.</h4>
+                                    <div class="date">18. 10. 2013</div>
+                                    <div class="desc">Společně s KIŠ</div>
+                                </div>
+                            </li>
+                            <li class="color3 span25">
+                                <div class="well">
+                                    <h4>FAJN DEN na Parukářce</h4>
+                                    <div class="date">20. 6. 2013</div>
+                                    <div class="desc">KamaŠne + <a href="http://www.vltava.at/">Vltava</a></div>
+                                </div>
+                            </li>
+                            <li class="color2 span25">
+                                <div class="well">
+                                    <h4><a href="http://uzjstedoma.cz">Už jsme doma</a>, Uralská 6, Praha 6</h4>
+                                    <div class="date">13. 6. 2013</div>
+                                    <div class="desc">KamaŠne + Improshow</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div><!-- content-inner -->
+                </div><!-- content -->
+
+<%= controller.include("local", "_footer") %>

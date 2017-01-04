@@ -1,0 +1,33 @@
+<%= controller.include("global", "_head") %>
+<%= controller.include("local", "_header") %>
+
+   <div class='content'>
+                    <div class='content-inner'>
+
+                        <div class="span33">
+                            <div class="well">
+                                <h2>Adresa</h2>
+                                <p>
+                                    Táňa Jírová - Manažerka<br/>
+                                    Farského 3<br/>
+                                    Praha 7<br/>
+                                    604 588 250<br/>
+
+                                    <br/>
+
+                                    tana.jirova@gmail.com
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="span33">
+                            <div class="well">
+                                <h2>Stageplan</h2>
+                                <a href="./Kamasne_stage_plan.pdf"><img src="img/pdf.png" alt="Stageplan PDF" style="width:33%;margin: 0 auto;"/></a>
+                            </div>
+                        </div>
+
+                    </div><!-- content-inner -->
+                </div><!-- content -->
+
+<%= controller.include("local", "_footer") %>
